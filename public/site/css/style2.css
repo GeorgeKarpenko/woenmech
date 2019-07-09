@@ -1,0 +1,146 @@
+#id_body{
+	background-image: url(warmech4.jpg);
+	background-position: top center;
+}
+
+header img{
+	margin:auto;
+	display:block;
+}
+
+header p{
+	text-align:center;
+}
+
+header p:first-child{
+	text-align:right;
+}
+
+.wrapper_index{
+	margin:auto;
+	display:flex;
+	align-items:stretch;
+	width: 929px;
+}
+
+BODY {
+	BACKGROUND-COLOR: #cb6661; FONT-FAMILY: Arial,Helvetica,verdana; FONT-SIZE: 12px
+}
+
+nav ul{
+	margin:-5px 0;
+	height:100%;
+}
+
+nav li{
+	display:flex;
+	padding:5.8px 0;
+	bgcolor:#990000;
+	margin:5px 0;
+	width:160px;
+	min-height:20px;
+	align:middle;
+	background-color: rgb(153, 0, 0);
+}
+
+main{
+	display:flex;
+	align-items:center;
+}
+
+main img{
+	height:100%;
+	margin: 0 10px;
+}
+
+.BODYKniga
+ {
+	BACKGROUND-COLOR: #d7d7c0; FONT-FAMILY: Arial,Helvetica,verdana; FONT-SIZE: 12px
+}
+H1, H2, H3, H4 {
+	COLOR: Black; FONT-FAMILY: Arial; FONT-WEIGHT: bold
+}
+.H2Zagolovok {
+	COLOR: Black; FONT-FAMILY: Times New Roman; FONT-SIZE: 21px; FONT-WEIGHT: none
+}
+A {
+	COLOR: White; FONT-FAMILY: verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.A2 {
+	COLOR: #631B16;
+	FONT-FAMILY: verdana;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: Black;
+}
+A:visited {
+	COLOR: #696969;
+}
+.A2:VISITED {
+	COLOR: #B22222;
+	/*FONT-FAMILY: verdana;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+	TEXT-DECORATION: underline*/
+}
+
+.PWhite {
+	COLOR: White; FONT-FAMILY: verdana; FONT-SIZE: 12px; FONT-WEIGHT : bold
+}
+P, .PArial {
+	COLOR: Black;
+	FONT-FAMILY: verdana;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT : none;
+}
+.PArial {
+	FONT-FAMILY: Arial;
+}
+.PZagl_Abzac, .PZagl_2 {
+    COLOR: Black; FONT-FAMILY: Arial; FONT-SIZE: 17px; FONT-STYLE : italic
+	
+}
+.PRubrica {
+	COLOR: White;
+	FONT-FAMILY: Arial;
+	FONT-SIZE: 17px;
+	FONT-WEIGHT: bold
+}
+
+LI {
+	COLOR: Black; FONT-FAMILY: verdana; FONT-SIZE: 12px
+}
+HR {
+	COLOR: #990000; 
+}
+.TR {
+	border : none;
+	background : none;
+	font : medium Arial;
+	text-align : center;
+	height : 30px;
+	width : 780px;
+	color : White;
+}
+.TD {
+	text-align : justify;
+	width : 780px;
+}
+
+.TDZaglRubrica, .TDMain {
+	text-align : center;
+	width : 100%;
+	background : #990000;
+	height : 30px;
+	font-family : Arial;
+	font-weight : bold;
+	font-size : 14px;
+	color : White;
+}
+.TDMain {
+	width: 160px;
+	height: 20px;
+}

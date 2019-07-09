@@ -1,0 +1,73 @@
+/*** Постраничная навигация базовый стиль ***/
+
+.pagination {
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.pagination li {
+    display: inline-block;
+    list-style: none;
+    margin: 3px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.pagination li a,
+.pagination li a:visited {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.pagination li a:hover {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+/***** Красный *****/
+
+.pagination li a:link.page-link,
+.pagination li a:visited.page-link {
+    border: 1px solid #872828;
+    background: #a10505;
+    background: -moz-linear-gradient(top, #e74444, #a10505);
+    background: -ms-linear-gradient(top, #e74444, #a10505);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e74444), to(#a10505));
+    background: -o-linear-gradient(top, #e74444, #a10505);
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#e74444', EndColorStr='#a10505', GradientType=0);
+    color: #fff;
+    text-shadow: 0 1px 2px #333333;
+    border-radius: 4px;
+}
+
+.pagination li a:hover.page-link {
+    border: 1px solid #aa3c3c;
+    background: #bf1616;
+    background: -moz-linear-gradient(top, #f56a6a, #bf1616);
+    background: -ms-linear-gradient(top, #f56a6a, #bf1616);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f56a6a), to(#bf1616));
+    background: -o-linear-gradient(top, #f56a6a, #bf1616);
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#f56a6a', EndColorStr='#bf1616', GradientType=0);
+    color: #fff;
+    text-shadow: 0 1px 2px #333333;
+    border-radius: 4px;
+}
+
+.pagination li span {
+    padding: 5px 10px;
+    border: 1px solid #aa3c3c;
+    background: #bf1616;
+    background: -moz-linear-gradient(top, #f56a6a, #bf1616);
+    background: -ms-linear-gradient(top, #f56a6a, #bf1616);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f56a6a), to(#bf1616));
+    background: -o-linear-gradient(top, #f56a6a, #bf1616);
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#f56a6a', EndColorStr='#bf1616', GradientType=0);
+    color: #fff;
+    text-shadow: 0 1px 2px #333333;
+    border-radius: 4px;
+}

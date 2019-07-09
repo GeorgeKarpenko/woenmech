@@ -1,0 +1,220 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 2.42857143;
+    color: #333;
+}
+.wrapper_form, .wrapper{
+	max-width:1170px;
+    margin:0 auto;
+}
+main p, main a{
+	width:25%;
+	margin:10px 0;
+	text-align: right;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+.wrapper main{
+    width: calc(100% - 30px);
+}
+
+.removeLeft, .removeRight{
+    color: #fff;
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    padding: 8px 0;
+}
+
+.imgRight_id, .imgLeft_id, main div div{
+    width: 75%;
+    display: flex;
+	box-sizing: border-box;
+}
+
+#addImgRight, #addImgLeft{
+    width: 100%;
+}
+
+input, button, select, textarea, .fileform {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, input, optgroup, select, textarea, .fileform {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+input, textarea, .fileform, #save, #cke_editor1{
+	width:75%;
+	margin:10px 0;
+	box-sizing: border-box;
+}
+
+.popup_selector{
+    margin-left: 10px;
+    width: auto;
+    min-width: 25%; 
+}
+
+main div div input{
+    width: auto;
+    max-width: 75%;
+    margin-right: auto;
+}
+
+textarea {
+	height:250px;
+	resize:vertical;
+}
+
+main .wrapper_form{
+	display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+
+footer .wrapper{
+	display:flex;
+	justify-content: space-between;
+}
+
+.fileform { 
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+}
+ 
+.fileform .selectbutton { 
+    background-color: #A2A3A3;
+    border: 1px solid #939494;
+    border-radius: 2px;
+    color: #FFFFFF;
+    float: right;
+    overflow: hidden;
+    padding: 2px 6px;
+    text-align: center;
+    vertical-align: middle;
+    width: 25%;
+	box-sizing: border-box;
+}
+ 
+.fileform #upload{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    -moz-opacity: 0; 
+    filter: alpha(opacity=0); 
+    opacity: 0; 
+    font-size: 150px; 
+    height: 30px; 
+    z-index:20;
+}
+
+.fileform #fileformlabel { 
+	background-color: #FFFFFF;
+	float: left;
+	overflow: hidden;
+	padding: 2px;
+	text-align: left;
+	vertical-align: middle;
+	width:75%;
+	box-sizing: border-box;
+}
+
+#back div{
+    border: 30px solid transparent;
+    border-right: 35px solid black;
+    display: inline-block;
+    margin: 0 18px 0 -18px;
+}
+
+#back{
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    width: min-content;
+}
+
+#back span{
+    margin-right: 10px;
+}
+
+#back:hover #backdiv{
+    border-right: 25px solid #a1a2a3;
+}
+
+#back:hover{
+    color: #a1a2a3;
+}
+
+table{
+    width: 100%;
+}
+/*
+table td div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+*/
+table td div b{
+    margin-right: 14px;
+}
+
+.contour input{
+    margin: 0 auto;
+}
+
+.articles{
+    width: calc(75% - 30px)!important;
+}
+
+/*приоритет*/
+
+table tbody {
+	list-style-type: none; 
+	margin: 10px auto; 
+	padding: 0; 
+	width: 500px;
+}
+table tbody tr{
+	margin: 4px 0; 
+	padding: 5px 10px; 
+	font-size: 16px;
+	background: #eee;
+	border: 1px solid #c3c3c3;
+	border-left: 8px solid #c3c3c3;
+	line-height: 24px;
+}
+
+.handle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(/site/img/icon_move.png) 0 50% no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.width{
+    width: 100%;
+}
+
+@media screen and (max-width: 960px){
+    .articles {
+        width: calc(100% - 30px)!important;
+    }
+}

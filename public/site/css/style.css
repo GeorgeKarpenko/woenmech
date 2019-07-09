@@ -1,0 +1,108 @@
+.search-wrapper .input-holder .search-input{
+    border: none;
+    background-color: #ffffff00;
+
+}
+.search-wrapper .input-holder .search-icon {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 0px;
+    cursor: pointer;
+}
+.search-wrapper .input-holder .search-icon span {
+    width:22px;
+    height:22px;
+    display: inline-block;
+    vertical-align: middle;
+    position:relative;
+    transform: rotate(-45deg);
+    transition: all .4s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+}
+
+.search-wrapper .input-holder .search-icon span::before, .search-wrapper .input-holder .search-icon span::after {
+    position: absolute; 
+    content:'';
+}
+.search-wrapper .input-holder .search-icon span::before {
+    width: 4px;
+    height: 11px;
+    left: 9px;
+    top: 18px;
+    border-radius: 2px;
+    background: #FE5F55;
+}
+.search-wrapper .input-holder .search-icon span::after {
+    width: 14px;
+    height: 14px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    border: 4px solid #FE5F55;
+}
+.search{
+    text-align: left;
+}
+
+main footer{
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+main footer p{
+    float: right;;
+}
+
+main footer p:first-child{
+    float: left;
+}
+
+#lang{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 3px;
+    background-color: #dedede;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:960px){
+    #lang{
+        top: 75px;
+    }
+
+    .nav-mobile{
+        position: absolute;
+        display: block!important;
+        background-color: #dedede;
+        width: 100%!important;
+        height: 100%;
+        margin: 0!important;
+        padding: 0 30px;
+        top: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+
+    .nav-mobile ul{
+        margin: 95px auto auto!important;
+    }
+}
+
+@media screen and (max-width:780px){
+    #lang{
+        right: 15px;
+    }
+
+    .nav-mobile{
+        padding: 0 15px;
+    }
+    .nav-mobile ul{
+        margin: 70px auto auto!important;
+    }
+}
